@@ -1,0 +1,15 @@
+{
+  "name": "master-otdelki",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Мастер Отделки: PWA + optional AI backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "openai": "^4.77.0",
+    "express-rate-limit": "^7.5.0"
+  }
+}

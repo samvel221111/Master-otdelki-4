@@ -113,7 +113,7 @@ app.post('/api/diagnose', diagnoseLimiter, async (req, res) => {
           content
         }
       ],
-      max_tokens: 1200
+      max_tokens: 700
     });
 
     res.json({
